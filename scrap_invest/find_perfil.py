@@ -7,10 +7,11 @@ import pandas as pd
 import streamlit as st
 
 
-options_site = ['github.com', 'linkedin.com/in']
+options_site = ['github.com', 'linkedin.com/in', 'facebook.com', 'instagram.com']
 site = st.sidebar.selectbox('Site', options=options_site)
 area = st.sidebar.text_input('Área de conhecimento')
 locality = st.sidebar.text_input('Localidade desejada')
+
 if (area != '') & (locality != ''):
     lista_perfil = []
     options = webdriver.ChromeOptions()
@@ -36,6 +37,7 @@ if (area != '') & (locality != ''):
     dataframe_perfil = pd.DataFrame(lista_perfil)
     dataframe_perfil.rename(columns={0: 'Perfis'}, inplace=True)
     navigator.quit()
+
     st.title('Lista de perfis encontrados')
     st.sidebar.info(f'Total de {len(dataframe_perfil)} perfis encontrados')
     st.dataframe(dataframe_perfil)
