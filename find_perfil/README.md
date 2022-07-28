@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="1000" height="300" src="https://cynoteck.com/wp-content/uploads/2019/07/what-is-selenium-cover.jpg" >
+</p>
+
 # Problema de negócio
 A área de RH (recursos humanos) deseja automatizar o processo de busca e seleção de novos empregados.
 
