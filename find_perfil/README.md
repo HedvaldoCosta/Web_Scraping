@@ -14,6 +14,12 @@ A aplicação dá a liberdade para o usuário pesquisar a área de conhecimento,
 que os filtros sejam aplicados no framework Selenium, onde os dados da página de pesquisa serão coletados, armazenados
 em uma lista que será transformada em um dataframe para que, assim, sejam carregados na aplicação web compartilhável.
 
+# Ferramentas utilizadas
+Python 3.8
+
+anaconda 3
+
+PyCharm Community Edition 2022.1.3
 # Sobre o código
 ## Instalando os requerimentos
 ```
