@@ -5,6 +5,6 @@
 Aqui você encontra os notebooks e códigos python voltados para web scraping. O web scraping extrai milhões de dados de páginas da internet em uma escala microscópica e com automação inteligente.
 
 # Códigos
-* Automação para busca de perfis e vagas de acordo com sua área de atuação e localidade: https://bit.ly/3J9Y6Io
+* Automação para busca de perfis e vagas de acordo com sua área de atuação e localidade: https://bit.ly/3Bos2i8
   
   Competências: ``Web scraping`` ``Transformação de dados`` ``Carregamento de dados``
