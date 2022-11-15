@@ -20,6 +20,15 @@ Python 3.8
 anaconda 3
 
 PyCharm Community Edition 2022.1.3
+
+pandas 1.4.3
+
+selenium 4.3.0
+
+streamlit 1.11.0
+
+webdriver-manager 3.8.2
+
 # Sobre o código
 ## Instalando os requerimentos
 ```
